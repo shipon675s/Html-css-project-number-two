@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Website Design</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Ruda:wght@400..900&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h3>Ibrahim Shipon</h3>
+            <div class="nav-menu" id="navemenus">
+                <span onclick="hideMenu()">X</span>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><input type="search"> <input type="submit" value="search"></li>
+                </ul>
+            </div>
+            <span onclick="openMenu()">Menu</span>
+        </nav>
+        <div class="ttdc">
+            <h1>CoderBD</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis vero voluptatibus doloribus aliquid tempore officia fugit, optio itaque enim minima repellat neque. Lorem ipsum dolor sit amet.</p>
+
+            <br>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, animi, quia nihil similique assumenda harum maiores sint aliquid hic non eveniet! Cum nesciunt quos dolores provident minus, nihil totam laborum!</p>
+
+            <a href="#">Hire Me</a> &nbsp; <a href="#">About Me</a>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        var navemenus= document.getElementById('navemenus');
+        function openMenu(){
+            navemenus.style.right="0";
+        }
+        function hideMenu(){
+            navemenus.style.right="-400px";
+        }
+    </script>
+
+    <!-- About section -->
+    <div class="about-me">
+       <h1>About Me</h1>
+       <div class="row">
+           <div class="about-me-col">
+            <img src="./profile pic 01.png" alt="image">
+           </div>
+           <div class="about-me-col">
+               <h3>Hello, this is Ibrahim Shipon</h3>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi accusantium harum eum delectus quaerat cumque nobis dolor perferendis ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quod.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestias laudantium dolores repellat itaque nulla exercitationem cumque eligendi error vero quia at possimus neque placeat officia voluptatem accusantium vitae illum omnis nam ipsa odit. Dolore, impedit labore? Praesentium quidem perferendis, nulla eligendi rerum, explicabo voluptate eius aperiam voluptatem doloribus repellendus.</p>
+           </div>
+       </div>
+    </div>
+
+    <!-- skill section -->
+    <div class="skills">
+        <h1>My Skills</h1>
+        <div class="row">
+            <div class="skills-col">
+                <h2>Academic Qualification</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nesciunt ad assumenda voluptate corrupti, modi quae maiores sint animi necessitatibus error facere sequi nisi quasi nulla numquam, architecto tempore ex nemo saepe! Placeat cupiditate quaerat impedit perspiciatis repellendus molestias praesentium?</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat earum sunt nam adipisci iusto minima!</p>
+            </div>
+            <div class="skills-col">
+                <h2>Programming</h2>
+                <ul>
+                    <li><h4>HTML</h4><span class="bar"><span class="html"></span></span></li>
+                    <li><h4>CSS</h4><span class="bar"><span class="css"></span></span></li>
+                    <li><h4>JAVASCRIPT</h4><span class="bar"><span class="javascript"></span></span></li>
+                    <li><h4>BOOTSTRAP</h4><span class="bar"><span class="bootstrap"></span></span></li>
+                    <li><h4>REACT</h4><span class="bar"><span class="react"></span></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section -->
+    <div class="my-service">
+        <h1>My Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro rerum provident aperiam cupiditate.
+        </p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Hardware</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur ea porro debitis voluptates totam. Quasi iusto nisi ullam fuga assumenda.</p>
+            </div>
+            <div class="service-col">
+                <h3>Software</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur ea porro debitis voluptates totam. Quasi iusto nisi ullam fuga assumenda.</p>
+            </div>
+            <div class="service-col">
+                <h3>Programming</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur ea porro debitis voluptates totam. Quasi                iusto nisi ullam fuga assumenda.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio section -->
+    <div class="my-portfolio">
+        <h1>My Portfolio</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro rerum provident aperiam cupiditate.
+        </p>
+        <div class="row">
+            <div class="portfolio-col">
+                <img src="portfolio 2.jpg" alt="image">
+                <div class="overlay"><h3>html & css</h3></div>
+            </div>
+            <div class="portfolio-col">
+                <img src="portfolio 1.jpg" alt="image">
+                <div class="overlay"><h3>html & css</h3></div>
+            </div>
+            <div class="portfolio-col">
+                <img src="portfolio 3.jpg" alt="image">
+                <div class="overlay"><h3>html & css</h3></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial -->
+    <div class="testimonial">
+        <h1>What people say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro rerum provident aperiam cupiditate.
+        </p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="people 1.jpg" alt="image">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nobis.</p>
+                    <h4>Shafi</h4>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="people 2.jpg" alt="image">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, nobis.</p>
+                    <h4>Rafi</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- call to action-section -->
+    <div class="call-to-action">
+        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, omnis. Mollitia, omnis.</h2>       
+        <a href="#">Follow Us</a>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer-section">
+        <div class="row">
+            <div class="footer-col">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">My Service</a></li>
+                    <li><a href="#">PrivacyPolicy</a></li>
+                    <li><a href="#">My Programme</a></li>
+                </ul>           
+            </div>
+            <div class="footer-col">
+                <h3>Get Help</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Payment Option</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>@Coder Shipon-2024 । All copyright reserved</footer>
+</body>
+</html>
